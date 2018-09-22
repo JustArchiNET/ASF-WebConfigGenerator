@@ -7,8 +7,8 @@ cd "$(dirname "$(readlink -f "$0")")"
 
 git pull
 
-npm install
-npm run build
+npm ci --no-progress
+npm run-script build --no-progress
 
 git reset
 git add -A -f "$TARGET"
