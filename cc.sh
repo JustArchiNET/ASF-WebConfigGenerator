@@ -12,5 +12,5 @@ npm run-script build --no-progress
 
 git reset
 git add -A -f "$TARGET"
-git commit -m "WebConfigGenerator build"
+git commit -m "ASF-WebConfigGenerator build"
 git push
