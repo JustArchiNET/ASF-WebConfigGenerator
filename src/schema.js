@@ -272,6 +272,12 @@ export default {
                         description: 'schema.bot.SteamPassword.description'
                     },
                     {
+                        type: 'InputText',
+                        label: 'SteamParentalCode',
+                        field: 'SteamParentalCode',
+                        validator: Validators.parentalPIN
+                    },
+                    {
                         type: 'InputCheckbox',
                         label: 'Enabled',
                         field: 'Enabled',
@@ -283,12 +289,6 @@ export default {
                         field: 'Paused',
                         defaultValue: false,
                         advanced: true
-                    },
-                    {
-                        type: 'InputText',
-                        label: 'SteamParentalCode',
-                        field: 'SteamParentalCode',
-                        validator: Validators.parentalPIN
                     },
                     {
                         type: 'InputFlag',
