@@ -2,7 +2,7 @@
     "app.name": "Gerador de configuração do ASF",
     "button.advanced": "Alternar configurações avançadas",
     "button.download": "Baixar",
-    "home.topic": "O gerador de configuração do ASF é uma ferramenta de utilidade pequena escrita em JavaScript, que ajuda você a criar os seus arquivos de configuração do ASF. Depois de baixar a configuração gerada, mova-a para a pasta <var>config</var> dentro do diretório principal do ASF. Para obter a documentação completa, consulte a nossa <a href=\"https://github.com/JustArchi/ArchiSteamFarm/wiki/Configuration\" target=\"_blank\" relke\">wiki</a>. Esperamos que a nossa ferramenta seja útil para você.",
+    "home.topic": "O Gerador de Configuração do ASF é uma pequena ferramenta escrita em JavaScript que te ajuda a criar seus arquivos de configuração do ASF. Depois de baixar a configuração gerada, mova-a para a pasta <var>config</var> dentro da pasta principal do ASF. Para obter a documentação completa consulte a nossa <a href=\"https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Configuration-pt-BR\">wiki</a>. Esperamos que a nossa ferramenta seja útil para você.",
     "link.asf": "ASF",
     "link.bot": "Bot",
     "link.home": "Início",
@@ -20,7 +20,7 @@
     "schema.performance": "Desempenho",
     "schema.remote_access": "Acesso remoto",
     "schema.security": "Segurança",
-    "schema.trading": "Troca",
+    "schema.trading": "Trocas",
     "schema.updates": "Atualizações",
     "static.add": "Adicionar"
 }
