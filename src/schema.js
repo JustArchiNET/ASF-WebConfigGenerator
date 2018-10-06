@@ -1,7 +1,7 @@
 import Validators from './validators';
 
 export default {
-    'V3.4.0.0+': {
+    'V3.4.0.3+': {
         asf: [
             {
                 legend: 'schema.basic',
@@ -381,6 +381,20 @@ export default {
                         type: 'InputSet',
                         label: 'MatchableTypes',
                         field: 'MatchableTypes',
+                        values: [
+                            { value: 0, name: 'Unknown' },
+                            { value: 1, name: 'BoosterPack' },
+                            { value: 2, name: 'Emoticon' },
+                            { value: 3, name: 'FoilTradingCard' },
+                            { value: 4, name: 'ProfileBackground' },
+                            { value: 5, name: 'TradingCard' },
+                            { value: 6, name: 'SteamGems' }
+                        ]
+                    },
+                    {
+                        type: 'InputSet',
+                        label: 'TransferableTypes',
+                        field: 'TransferableTypes',
                         values: [
                             { value: 0, name: 'Unknown' },
                             { value: 1, name: 'BoosterPack' },
