@@ -1,0 +1,35 @@
+# ASF-WebConfigGenerator is a node.js project
+language: node_js
+
+# We can save bandwidth by limiting git clone to only last 10 commits
+git:
+  depth: 10
+
+# Use latest images for building: https://blog.travis-ci.com/2017-12-01-new-update-schedule-for-linux-build-images
+group: travis_latest
+
+# We target latest stable version of node.js
+node_js: node
+
+script:
+  - |
+    set -eu
+
+    npm run-script build --no-progress
+
+    set +u # This is needed to continue Travis build
+matrix:
+  # We can use fast finish, as we don't need to wait for allow_failures builds to mark build as success
+  fast_finish: true
+  include:
+    # We're building ASF-WebConfigGenerator with node.js on latest versions of all available OSes
+    # We need to declare latest image ourselves until https://github.com/travis-ci/travis-ci/issues/8922 is dealt with
+    # Ref: https://docs.travis-ci.com/user/reference/trusty
+    - os: linux
+      dist: trusty
+      sudo: false
+    # Ref: https://docs.travis-ci.com/user/reference/osx
+    - os: osx
+      osx_image: xcode10
+    # Ref: https://docs.travis-ci.com/user/reference/windows
+    - os: windows
