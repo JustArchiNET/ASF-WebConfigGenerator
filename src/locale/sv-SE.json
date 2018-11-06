@@ -11,7 +11,7 @@
     "schema.basic": "",
     "schema.bot.SteamLogin.description": "",
     "schema.bot.SteamPassword.description": "",
-    "schema.bot.name": "",
+    "schema.bot.name": "Namn",
     "schema.bot.name.description": "",
     "schema.connection": "",
     "schema.customization": "",
