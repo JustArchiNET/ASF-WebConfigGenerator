@@ -16,7 +16,7 @@
     "schema.connection": "连接",
     "schema.customization": "自定义",
     "schema.farming": "挂卡",
-    "schema.generic.steamid64": "你的 SteamID64位ID",
+    "schema.generic.steamid64": "你的 64 位 SteamID",
     "schema.performance": "性能",
     "schema.remote_access": "远程访问",
     "schema.security": "安全",
