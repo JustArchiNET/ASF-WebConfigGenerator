@@ -2,7 +2,7 @@
 "files": [
   {
     "source": "/src/locale/strings.json",
-    "dest" : "/ASF-WebConfigGenerator/src/locale/strings.json",
+    "dest": "/ASF-WebConfigGenerator/src/locale/strings.json",
     "translation": "/src/locale/%locale%.json"
   }
 ]

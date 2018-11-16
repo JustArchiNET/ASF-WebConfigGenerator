@@ -9,6 +9,21 @@ environment:
   CROWDIN_API_KEY:
     secure: oGuZaQo2z5/JkEYaKrD9Ing+TgwZ3qQVf+9Jdz73Fephy04z5rWPGCCtkjaMLTcY
   CROWDIN_PROJECT_IDENTIFIER: archisteamfarm
+install:
+- pwsh: >-
+    Set-StrictMode -Version Latest
+
+    $ErrorActionPreference = 'Stop'
+
+    $ProgressPreference = 'SilentlyContinue'
+
+
+    git submodule update --init --recursive
+
+
+    if ($LastExitCode -ne 0) {
+        throw "Last command failed."
+    }
 build_script:
 - pwsh: >-
     Set-StrictMode -Version Latest
