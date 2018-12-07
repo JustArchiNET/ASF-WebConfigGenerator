@@ -206,7 +206,7 @@ export default {
                         label: 'WebLimiterDelay',
                         field: 'WebLimiterDelay',
                         type: 'InputNumber',
-                        placeholder: 200,
+                        placeholder: 300,
                         validator: Validators.ushort
                     }
                 ]
