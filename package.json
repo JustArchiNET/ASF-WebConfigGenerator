@@ -8,7 +8,7 @@
     "build": "node build.js"
   },
   "dependencies": {
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.11",
     "vue": "^2.5.21",
     "vue-i18n": "^7.6.0",
     "vue-router": "^2.8.1"
