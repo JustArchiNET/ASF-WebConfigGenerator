@@ -6,7 +6,7 @@
     "link.asf": "ASF",
     "link.bot": "机器人",
     "link.home": "首页",
-    "schema.access": "访问",
+    "schema.access": "权限",
     "schema.advanced": "高级",
     "schema.basic": "基本",
     "schema.bot.SteamLogin.description": "您的 Steam 帐户用户名",
