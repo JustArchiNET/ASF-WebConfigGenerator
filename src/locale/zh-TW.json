@@ -1,6 +1,6 @@
 {
     "app.name": "ASF 設定檔產生器",
-    "button.advanced": "切換到進階設定",
+    "button.advanced": "開啟進階設定",
     "button.download": "下載",
     "home.topic": "ASF 設定檔產生器是一款用 JavaScript 編寫的小工具，可幫助您建立 ASF 設定檔。下載產生的設定檔後，將其存放到 ASF 目錄下的 <var>config</var> 資料夾中。完整的使用說明請參閱我們的 <a href=\"https://github.com/JustArchi/ArchiSteamFarm/wiki/Configuration\" target=\"_blank\" rel=\"noopener\">wiki</a>，希望我們的工具對你有幫助！",
     "link.asf": "ASF",
