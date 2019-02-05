@@ -1,7 +1,7 @@
 import Validators from './validators';
 
 export default {
-    'V4.0.0.0+': {
+    'V4.0.0.4+': {
         asf: [
             {
                 legend: 'schema.basic',
@@ -377,7 +377,8 @@ export default {
                             { value: 5, name: 'TradingCard' },
                             { value: 6, name: 'SteamGems' },
                             { value: 7, name: 'SaleItem' },
-                            { value: 8, name: 'Consumable' }
+                            { value: 8, name: 'Consumable' },
+                            { value: 9, name: 'ProfileModifier' }
                         ]
                     },
                     {
@@ -393,7 +394,8 @@ export default {
                             { value: 5, name: 'TradingCard' },
                             { value: 6, name: 'SteamGems' },
                             { value: 7, name: 'SaleItem' },
-                            { value: 8, name: 'Consumable' }
+                            { value: 8, name: 'Consumable' },
+                            { value: 9, name: 'ProfileModifier' }
                         ]
                     },
                     {
@@ -409,7 +411,8 @@ export default {
                             { value: 5, name: 'TradingCard' },
                             { value: 6, name: 'SteamGems' },
                             { value: 7, name: 'SaleItem' },
-                            { value: 8, name: 'Consumable' }
+                            { value: 8, name: 'Consumable' },
+                            { value: 9, name: 'ProfileModifier' }
                         ]
                     }
                 ]
