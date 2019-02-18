@@ -1,6 +1,6 @@
 {
     "app.name": "ASF Config Generator",
-    "button.advanced": "Erweiterte Einstellungen aktivieren",
+    "button.advanced": "Zu den erweiterten Einstellungen umschalten",
     "button.download": "Herunterladen",
     "home.topic": "Der ASF Config Generator ist ein kleines in JavaScript geschriebenes Hilfsprogramm, das dir hilft, deine ASF-Konfigurationsdateien zu erstellen. Nachdem du die generierte Konfigurationsdatei heruntergeladen hast, verschiebe sie in den <var>config</var>-Ordner im ASF-Hauptverzeichnis. Eine vollständige Dokumentation findest du in unserem <a href=\"https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Configuration-de-DE\" target=\"_blank\" rel=\"noopener\">Wiki</a>. Wir hoffen, dass unser Programm für dich nützlich sein wird.",
     "link.asf": "ASF",
