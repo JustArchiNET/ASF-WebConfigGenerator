@@ -301,8 +301,7 @@ export default {
                             { value: 4, name: 'RejectInvalidGroupInvites' },
                             { value: 8, name: 'DismissInventoryNotifications' },
                             { value: 16, name: 'MarkReceivedMessagesAsRead' },
-                            { value: 32, name: 'MarkBotMessagesAsRead' },
-                            { value: 64, name: 'MarkTradeMessagesAsRead' }
+                            { value: 32, name: 'MarkBotMessagesAsRead' }
                         ],
                         defaultValue: 0,
                         advanced: true
