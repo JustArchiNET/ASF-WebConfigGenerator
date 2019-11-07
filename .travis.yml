@@ -12,7 +12,7 @@ script:
   - |
     set -euo pipefail
 
-    npm run-script build
+    npm run-script build --no-progress
 
     set +u # This is needed to continue Travis build
 matrix:
