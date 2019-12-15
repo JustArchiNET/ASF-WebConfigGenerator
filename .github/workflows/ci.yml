@@ -1,4 +1,4 @@
-name: ASF-WebConfigGenerator CI
+name: ASF-WebConfigGenerator-CI
 
 on: [push, pull_request]
 

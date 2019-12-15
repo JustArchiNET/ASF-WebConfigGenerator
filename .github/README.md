@@ -2,6 +2,7 @@
 
 Standalone web config generator for ASF
 
+[![Build status (GitHub)](https://img.shields.io/github/workflow/status/JustArchiNET/ASF-WebConfigGenerator/ASF-WebConfigGenerator-CI/master?label=GitHub&maxAge=600)](https://github.com/JustArchiNET/ASF-WebConfigGenerator/actions)
 [![Build status (AppVeyor)](https://img.shields.io/appveyor/ci/JustArchi/ASF-WebConfigGenerator/master?label=AppVeyor&maxAge=600)](https://ci.appveyor.com/project/JustArchi/ASF-WebConfigGenerator)
 [![Build status (Travis)](https://img.shields.io/travis/com/JustArchiNET/ASF-WebConfigGenerator/master?label=Travis&maxAge=600)](https://travis-ci.com/JustArchiNET/ASF-WebConfigGenerator)
 [![Build status (CircleCI)](https://img.shields.io/circleci/build/github/JustArchiNET/ASF-WebConfigGenerator/master?label=CircleCI&maxAge=600)](https://circleci.com/gh/JustArchiNET/ASF-WebConfigGenerator)
