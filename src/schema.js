@@ -380,7 +380,8 @@ export default {
                             { value: 7, name: 'SaleItem' },
                             { value: 8, name: 'Consumable' },
                             { value: 9, name: 'ProfileModifier' },
-                            { value: 10, name: 'Sticker' }
+                            { value: 10, name: 'Sticker' },
+                            { value: 11, name: 'ChatEffect' }
                         ]
                     },
                     {
@@ -398,7 +399,8 @@ export default {
                             { value: 7, name: 'SaleItem' },
                             { value: 8, name: 'Consumable' },
                             { value: 9, name: 'ProfileModifier' },
-                            { value: 10, name: 'Sticker' }
+                            { value: 10, name: 'Sticker' },
+                            { value: 11, name: 'ChatEffect' }
                         ]
                     },
                     {
@@ -416,7 +418,8 @@ export default {
                             { value: 7, name: 'SaleItem' },
                             { value: 8, name: 'Consumable' },
                             { value: 9, name: 'ProfileModifier' },
-                            { value: 10, name: 'Sticker' }
+                            { value: 10, name: 'Sticker' },
+                            { value: 11, name: 'ChatEffect' }
                         ]
                     }
                 ]
