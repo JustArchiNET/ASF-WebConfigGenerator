@@ -44,7 +44,7 @@ const config = {
         use: {
           loader: 'url-loader',
           options: {
-            esModules: true,
+            esModule: false,
             limit: 8192,
             name: 'media/[name].[ext]'
           }
