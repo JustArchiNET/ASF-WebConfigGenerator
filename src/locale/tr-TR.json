@@ -15,7 +15,7 @@
     "schema.bot.name.description": "Botun ismi",
     "schema.connection": "Bağlantı",
     "schema.customization": "Özelleştirme",
-    "schema.farming": "İşleme",
+    "schema.farming": "İşlenen",
     "schema.generic.steamid64": "SteamID64 kimliğiniz",
     "schema.performance": "Performans",
     "schema.remote_access": "Uzaktan erişim",
