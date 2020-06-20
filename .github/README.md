@@ -14,16 +14,14 @@ Standalone web config generator for ASF
 
 ``` bash
 # install dependencies
-npm install
+npm ci
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
+# build
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+The compiled files are available in `docs` directory. Launch index.html with your browser of choice.
+
+## Development Setup
+
+There's currently no development scripts provided, in order to test the changes you'll have to run build command and reload the page like in good old days.
