@@ -61,7 +61,11 @@ const config = {
     new HtmlWebpackPlugin({ filename: path.resolve(__dirname, 'docs/index.html'), template: 'src/index.html', inject: true, hash: false }),
     new UglifyJSPlugin(),
     new VueLoaderPlugin()
-  ]
+  ],
+  performance: {
+    maxEntrypointSize: 300000,
+    maxAssetSize: 300000,
+  }
 };
 
 const compiler = webpack(config);
