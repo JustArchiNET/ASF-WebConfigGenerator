@@ -82,9 +82,7 @@ test_script:
     7z a -bd -tzip '-mm=Deflate' $compressionArgs 'out\ASF-WebConfigGenerator.zip' "$env:APPVEYOR_BUILD_FOLDER\docs\*"
 
 
-    # TODO: Change me to Push-AppveyorArtifact once https://github.com/appveyor/ci/issues/2183 is fixed
-
-    appveyor PushArtifact 'out\ASF-WebConfigGenerator.zip' -FileName 'ASF-WebConfigGenerator.zip' -DeploymentName 'ASF-WebConfigGenerator.zip'
+    Push-AppveyorArtifact 'out\ASF-WebConfigGenerator.zip' -FileName 'ASF-WebConfigGenerator.zip' -DeploymentName 'ASF-WebConfigGenerator.zip'
 
 
     if (!($env:APPVEYOR_PULL_REQUEST_NUMBER) -and ($env:APPVEYOR_REPO_BRANCH -eq 'master') -and ($env:APPVEYOR_REPO_TAG -eq 'false') -and (Test-Path 'crowdin.yml' -PathType Leaf) -and (Test-Path 'tools\ArchiCrowdin\crowdin_identity_example.yml' -PathType Leaf) -and (Test-Path 'tools\ArchiCrowdin\archi.ps1' -PathType Leaf)) {
