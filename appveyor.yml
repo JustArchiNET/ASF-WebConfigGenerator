@@ -5,6 +5,8 @@ skip_branch_with_pr: true
 image: Visual Studio 2019
 configuration: Release
 clone_depth: 10
+environment:
+  NODE_JS_VERSION: lts
 install:
 - pwsh: >-
     Set-StrictMode -Version Latest
@@ -28,6 +30,7 @@ install:
     if ($LastExitCode -ne 0) {
         throw "Last command failed."
     }
+- ps: Install-Product node "$env:NODE_JS_VERSION"
 build_script:
 - pwsh: >-
     Set-StrictMode -Version Latest
