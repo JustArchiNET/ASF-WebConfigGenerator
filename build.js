@@ -33,11 +33,11 @@ const config = {
       },
       {
         test: /\.scss$/,
-        use: ['vue-style-loader', 'css-loader', 'sass-loader']
+        use: ['vue-style-loader', { loader: 'css-loader', options: { esModule: false } }, 'sass-loader']
       },
       {
         test: /\.sass/,
-        use: ['vue-style-loader', 'css-loader', { loader: 'sass-loader', options: { indentedSyntax: true } }]
+        use: ['vue-style-loader', { loader: 'css-loader', options: { esModule: false } }, { loader: 'sass-loader', options: { indentedSyntax: true } }]
       },
       {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac|woff2?|eot|ttf|otf|png|jpe?g|gif|svg)(\?.*)?$/,
