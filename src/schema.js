@@ -1,7 +1,7 @@
 import Validators from './validators';
 
 export default {
-    'V4.3.1.1+': {
+    'V4.3.1.3+': {
         asf: [
             {
                 legend: 'schema.basic',
@@ -92,6 +92,17 @@ export default {
                         field: 'IPCPassword',
                         placeholder: '',
                         type: 'InputPassword'
+                    },
+                    {
+                        type: 'InputSelect',
+                        label: 'IPCPasswordFormat',
+                        field: 'IPCPasswordFormat',
+                        options: [
+                            { value: 0, name: 'PlainText' },
+                            { value: 1, name: 'SCrypt' },
+                            { value: 2, name: 'Pbkdf2' }
+                        ],
+                        defaultValue: 0
                     }
                 ]
             },
