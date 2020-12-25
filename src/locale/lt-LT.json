@@ -1,10 +1,10 @@
 {
-    "app.name": "ASF Config Generator",
+    "app.name": "ASF Konfiguracijos Generatorius",
     "button.advanced": "Įjungti/išjungti papildomus parametrus",
     "button.download": "Parsisiųsti",
     "home.topic": "ASF Config Generator yra maža Javascript parašyta programa, kuri padeda kurti ASF konfigūracijos failus. Atsisiuntę sugeneruotą konfigūracijos failą, perkelkite jį į aplanką <var> config </var>, esantį pagrindiniame ASF aplanke. Norėdami gauti visą dokumentaciją, žr. <a href=\"https://github.com/JustArchi/ArchiSteamFarm/wiki/Configuration\" target=\"_blank\" rel=\"noopener\"> wiki </a>. Tikimės, kad šis įrankis jums naudingas.",
     "link.asf": "ASF",
-    "link.bot": "Botas",
+    "link.bot": "Robotas",
     "link.home": "Pradžia",
     "schema.access": "Prieiga",
     "schema.advanced": "Papildoma",
