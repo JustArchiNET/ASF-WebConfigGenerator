@@ -29,7 +29,7 @@
     "vue-loader": "^15.9.6",
     "vue-style-loader": "^4.1.3",
     "vue-template-compiler": "^2.6.12",
-    "webpack": "^5.24.3"
+    "webpack": "^5.24.4"
   },
   "engines": {
     "node": ">= 8.0.0",
