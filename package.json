@@ -10,7 +10,7 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "vue": "^2.6.12",
-    "vue-i18n": "^8.24.0",
+    "vue-i18n": "^8.24.1",
     "vue-router": "^3.5.1"
   },
   "devDependencies": {
