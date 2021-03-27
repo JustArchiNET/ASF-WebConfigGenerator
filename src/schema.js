@@ -546,7 +546,8 @@ export default {
                         field: 'UserInterfaceMode',
                         options: [
                             { value: 0, name: 'Default' },
-                            { value: 1, name: 'BigPicture' }
+                            { value: 1, name: 'BigPicture' },
+                            { value: 2, name: 'Mobile' }
                         ],
                         defaultValue: 0
                     }
