@@ -24,7 +24,7 @@
 </template>
 
 <script>
-  import { each } from 'lodash';
+  import { each } from 'lodash-es';
   import Config from './mixin/Config.vue';
 
   export default {
