@@ -52,3 +52,27 @@ jobs:
       with:
         name: ${{ matrix.os }}_ASF-WebConfigGenerator
         path: docs
+
+    - name: Deploy ASF-WebConfigGenerator
+      continue-on-error: true
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && startsWith(matrix.os, 'ubuntu-') }}
+      shell: sh
+      run: |
+        set -eu
+
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        git add -A "docs"
+
+        if ! git diff --cached --quiet; then
+            git commit -m "Automatic translations update"
+        fi
+
+    - name: Push changes
+      continue-on-error: true
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && startsWith(matrix.os, 'ubuntu-') }}
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
