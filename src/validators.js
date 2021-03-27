@@ -1,4 +1,4 @@
-import { isArray, isNil, isNumber, isString } from 'lodash';
+import { isArray, isNil, isNumber, isString } from 'lodash-es';
 
 function checkEmpty(value, required) {
     if (isNil(value) || value === '') {

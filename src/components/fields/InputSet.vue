@@ -31,7 +31,7 @@
 </template>
 
 <script>
-  import { each } from 'lodash';
+  import { each } from 'lodash-es';
   import Input from '../mixin/Input.vue';
 
   export default {

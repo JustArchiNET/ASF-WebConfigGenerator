@@ -1,5 +1,5 @@
 <script>
-  import { each } from 'lodash';
+  import { each } from 'lodash-es';
 
   import schema from '../../schema';
 
