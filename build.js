@@ -83,4 +83,8 @@ compiler.run((err, stats) => {
     modules: false,
     chunks: false
   }));
+
+  if (stats.hasErrors()) {
+    process.exit(1);
+  }
 });
