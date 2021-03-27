@@ -1,6 +1,5 @@
 const path = require('path');
 const webpack = require('webpack');
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 
@@ -59,7 +58,6 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({ filename: path.resolve(__dirname, 'docs/index.html'), template: 'src/index.html', inject: true, hash: false }),
-    new UglifyJSPlugin(),
     new VueLoaderPlugin()
   ],
   performance: {
