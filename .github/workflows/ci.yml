@@ -66,7 +66,7 @@ jobs:
         git add -A "docs"
 
         if ! git diff --cached --quiet; then
-            git commit -m "Automatic translations update"
+            git commit -m "Automatic ASF-WebConfigGenerator deployment"
         fi
 
     - name: Push changes
