@@ -1,6 +1,6 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { VueLoaderPlugin } = require('vue-loader');
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
   mode: 'production',
@@ -8,13 +8,14 @@ module.exports = {
   output: {
     filename: 'js/[name].js',
     chunkFilename: 'js/[id].chunk.js',
-    path: path.resolve(__dirname, 'docs')
+    path: path.resolve(__dirname, 'docs'),
+    clean: true
   },
   module: {
     rules: [
       {
         test: /\.vue$/,
-        loader: 'vue-loader',
+        loader: 'vue-loader'
       },
       {
         test: /\.js$/,
@@ -45,14 +46,16 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({ filename: path.resolve(__dirname, 'docs/index.html'), template: 'src/index.html', inject: true, hash: false }),
+    new HtmlWebpackPlugin({ template: 'src/index.html' }),
     new VueLoaderPlugin()
   ],
-  performance: {
-    maxEntrypointSize: 300000,
-    maxAssetSize: 300000,
+  resolve: {
+    alias: {
+      'vue$': 'vue/dist/vue.esm.js'
+    }
   },
-  devServer: {
-    contentBase: path.join(__dirname, 'docs'),
+  performance: {
+    maxEntrypointSize: 500000,
+    maxAssetSize: 500000
   }
-};
+}

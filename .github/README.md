@@ -11,7 +11,7 @@ Standalone web config generator for ASF
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm ci
 
@@ -23,4 +23,8 @@ The compiled files are available in `docs` directory. Launch index.html with you
 
 ## Development Setup
 
-There's currently no development scripts provided, in order to test the changes you'll have to run build command and reload the page like in good old days.
+```bash
+npm run dev
+```
+
+A web browser should automatically open `localhost:8080`. Changes in files are automatically reloaded after compilation.
