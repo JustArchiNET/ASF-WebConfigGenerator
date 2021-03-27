@@ -7,6 +7,12 @@ export default {
                 legend: 'schema.basic',
                 fields: [
                     {
+                        label: 'IPC',
+                        field: 'IPC',
+                        defaultValue: false,
+                        type: 'InputCheckbox'
+                    },
+                    {
                         label: 'SteamOwnerID',
                         field: 's_SteamOwnerID',
                         placeholder: '0',
@@ -78,12 +84,6 @@ export default {
                     {
                         label: 'Headless',
                         field: 'Headless',
-                        defaultValue: false,
-                        type: 'InputCheckbox'
-                    },
-                    {
-                        label: 'IPC',
-                        field: 'IPC',
                         defaultValue: false,
                         type: 'InputCheckbox'
                     },
