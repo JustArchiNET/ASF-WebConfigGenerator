@@ -9,7 +9,7 @@
         <div class="row gutters">
             <div class="col col-5">
                 <div class="form-item">
-                    <input v-if="!schema.keys" type="text" :placeholder="schema.keyPlaceholder" class="map-key" :class="{ error: keyInvalid }" v-model="mapKey">
+                    <input ref="inputKey" v-if="!schema.keys" type="text" :placeholder="schema.keyPlaceholder" class="map-key" :class="{ error: keyInvalid }" v-model="mapKey">
                     <span v-if="!schema.keys && keyInvalid" class="error">{{ keyErrors.join(' ') }}</span>
                     <select v-if="schema.keys" v-model="mapKey">
                         <option v-for="key in schema.keys" :value="key.value">{{ $t(key.name) }}</option>
@@ -18,7 +18,7 @@
             </div>
             <div class="col col-5">
                 <div class="form-item">
-                    <input v-if="!schema.values" type="text" :placeholder="schema.valuePlaceholder" class="map-value" :class="{ error: valueInvalid }" v-model="mapValue">
+                    <input ref="inputValue" v-if="!schema.values" type="text" :placeholder="schema.valuePlaceholder" class="map-value" :class="{ error: valueInvalid }" v-model="mapValue">
                     <span v-if="!schema.values && valueInvalid" class="error">{{ valueErrors.join(' ') }}</span>
                     <select v-if="schema.values" v-model="mapValue">
                         <option v-for="val in schema.values" :value="val.value">{{ $t(val.name) }}</option>
@@ -40,7 +40,6 @@
 </template>
 
 <script>
-  import { each } from 'lodash-es';
   import Input from '../mixin/Input.vue';
 
   export default {
@@ -97,13 +96,14 @@
         const invalid = this.keyInvalid || this.valueInvalid;
         if (!invalid) return false;
 
-        const fields = [];
-        if (this.keyInvalid) each(this.$el.getElementsByClassName('map-key'), field => fields.push(field));
-        if (this.valueInvalid) each(this.$el.getElementsByClassName('map-value'), field => fields.push(field));
-
         clearTimeout(this.shakeTimeout);
-        each(fields, field => { field.classList.add('shake'); });
-        this.shakeTimeout = setTimeout(() => { each(fields, field => { field.classList.remove('shake'); }); }, 500);
+
+        const fields = [];
+        if (this.keyInvalid) fields.push(this.$refs.inputKey);
+        if (this.valueInvalid) fields.push(this.$refs.inputValue);
+
+        fields.forEach(field => { field.classList.add('shake'); });
+        this.shakeTimeout = setTimeout(() => { fields.forEach(field => { field.classList.remove('shake'); }); }, 500);
 
         return true;
       }

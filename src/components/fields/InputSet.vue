@@ -9,7 +9,7 @@
         <div class="row gutters">
             <div class="col col-10">
                 <div class="form-input">
-                    <input v-if="!schema.values" type="text" :name="schema.field" :placeholder="schema.placeholder" :id="schema.field" class="set-value" :class="{ error: invalid }"
+                    <input ref="input" v-if="!schema.values" type="text" :name="schema.field" :placeholder="schema.placeholder" :id="schema.field" class="set-value" :class="{ error: invalid }"
                            v-model="setValue">
                     <span v-if="!schema.values && invalid" class="error">{{ errors.join(' ') }}</span>
                     <select v-if="schema.values" v-model="setValue" :id="schema.field">
@@ -31,7 +31,6 @@
 </template>
 
 <script>
-  import { each } from 'lodash-es';
   import Input from '../mixin/Input.vue';
 
   export default {
@@ -75,12 +74,9 @@
       hasErrors() {
         if (!this.invalid) return false;
 
-        const fields = [];
-        each(this.$el.getElementsByClassName('set-value'), field => fields.push(field));
-
         clearTimeout(this.shakeTimeout);
-        each(fields, field => { field.classList.add('shake'); });
-        this.shakeTimeout = setTimeout(() => { each(fields, field => { field.classList.remove('shake'); }); }, 500);
+        this.$refs.input.classList.add('shake');
+        this.shakeTimeout = setTimeout(() => { this.$refs.input.classList.remove('shake'); }, 500);
 
         return true;
       }

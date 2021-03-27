@@ -24,7 +24,6 @@
 </template>
 
 <script>
-  import { each } from 'lodash-es';
   import Config from './mixin/Config.vue';
 
   export default {
@@ -40,9 +39,9 @@
           model.GamesPlayedWhileIdle = model.GamesPlayedWhileIdle.map(value => parseInt(value, 10)).filter(value => !isNaN(value) && value > 0);
         }
 
-        each(model, (value, key) => {
+        Object.entries(model).forEach(([key, value]) => {
           if (typeof value === 'string' && value === '') delete model[key];
-        });
+        })
 
         if (model.name) delete model.name;
 

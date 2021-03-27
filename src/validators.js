@@ -1,4 +1,14 @@
-import { isArray, isNil, isNumber, isString } from 'lodash-es';
+function isNil(value) {
+  return value == null
+}
+
+function isNumber(value) {
+  return typeof value === 'number'
+}
+
+function isString(value) {
+  return value && typeof value.valueOf() === "string"
+}
 
 function checkEmpty(value, required) {
     if (isNil(value) || value === '') {

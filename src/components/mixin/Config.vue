@@ -1,12 +1,10 @@
 <script>
-  import { each } from 'lodash-es';
-
   import schema from '../../schema';
 
   const fieldComponents = {};
   const fields = require.context('../fields', false, /^\.\/([\w-_]+)\.vue$/);
 
-  each(fields.keys(), key => {
+  fields.keys().forEach(key => {
     const name = key.replace(/^\.\//, '').replace(/\.vue/, '');
     fieldComponents[name] = fields(key).default;
   });
@@ -65,8 +63,8 @@
         if (!fields.length) return form.checkValidity();
 
         clearTimeout(this.shakeTimeout);
-        each(fields, field => { field.classList.add('shake'); });
-        this.shakeTimeout = setTimeout(() => { each(fields, field => { field.classList.remove('shake'); }); }, 500);
+        Array.from(fields).forEach(field => { field.classList.add('shake'); });
+        this.shakeTimeout = setTimeout(() => { Array.from(fields).forEach(field => { field.classList.remove('shake'); }); }, 500);
         return false;
       },
       processModelToJSON(model) {
