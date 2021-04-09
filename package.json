@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vue": "^2.6.12",
-    "vue-i18n": "^8.24.2",
+    "vue-i18n": "^8.24.3",
     "vue-router": "^3.5.1"
   },
   "devDependencies": {
