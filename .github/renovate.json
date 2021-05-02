@@ -2,6 +2,7 @@
   "extends": [
     "config:base",
     ":assignee(Aareksio)",
+    ":automergeBranch",
     ":automergeDigest",
     ":automergeMinor",
     ":disableRateLimiting",
