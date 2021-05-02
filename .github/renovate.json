@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "config:base",
+    ":assignee(Aareksio)",
+    ":automergeDigest",
+    ":automergeMinor",
+    ":disableRateLimiting",
+    ":label(Automatic)"
+  ]
+}
