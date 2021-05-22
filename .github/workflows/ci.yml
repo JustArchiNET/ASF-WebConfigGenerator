@@ -64,7 +64,6 @@ jobs:
         git-commit-gpgsign: true
 
     - name: Deploy ASF-WebConfigGenerator
-      continue-on-error: true
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && startsWith(matrix.os, 'ubuntu-') }}
       shell: sh
       run: |
