@@ -55,15 +55,19 @@ jobs:
         name: ${{ matrix.os }}_ASF-WebConfigGenerator
         path: docs
 
+    - name: Import GPG key
+      uses: crazy-max/ghaction-import-gpg@v3
+      with:
+        gpg-private-key: ${{ secrets.ARCHIBOT_GPG_PRIVATE_KEY }}
+        git-user-signingkey: true
+        git-commit-gpgsign: true
+
     - name: Deploy ASF-WebConfigGenerator
       continue-on-error: true
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && startsWith(matrix.os, 'ubuntu-') }}
       shell: sh
       run: |
         set -eu
-
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
 
         git add -A "docs"
 
