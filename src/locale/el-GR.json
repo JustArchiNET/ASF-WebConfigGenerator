@@ -7,7 +7,7 @@
     "link.bot": "Bot",
     "link.home": "Αρχική",
     "schema.access": "Πρόσβαση",
-    "schema.advanced": "Για προχωρημένους",
+    "schema.advanced": "Προχωρημένες",
     "schema.basic": "Βασικά",
     "schema.bot.SteamLogin.description": "Το όνομα χρήστη του λογαριασμού Steam σας",
     "schema.bot.SteamPassword.description": "Ο κωδικός πρόσβασης του λογαριασμού Steam σας",
@@ -21,6 +21,6 @@
     "schema.remote_access": "Απομακρυσμένη πρόσβαση",
     "schema.security": "Ασφάλεια",
     "schema.trading": "Ανταλλαγές",
-    "schema.updates": "Ενημερώσεις",
+    "schema.updates": "ΕΝΗΜΕΡΩΣΕΙΣ",
     "static.add": "Προσθήκη"
 }

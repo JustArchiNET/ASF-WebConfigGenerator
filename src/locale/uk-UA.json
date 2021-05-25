@@ -7,7 +7,7 @@
     "link.bot": "Бот",
     "link.home": "Головна",
     "schema.access": "Доступ",
-    "schema.advanced": "Додаткові налаштування",
+    "schema.advanced": "Розширені настройки",
     "schema.basic": "Основні налаштування",
     "schema.bot.SteamLogin.description": "Логін від вашого акаунта Steam",
     "schema.bot.SteamPassword.description": "Пароль від вашого акаунта Steam",

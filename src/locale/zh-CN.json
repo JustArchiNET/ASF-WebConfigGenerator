@@ -6,7 +6,7 @@
     "link.asf": "ASF",
     "link.bot": "机器人",
     "link.home": "首页",
-    "schema.access": "权限",
+    "schema.access": "访问",
     "schema.advanced": "高级",
     "schema.basic": "基本",
     "schema.bot.SteamLogin.description": "您的 Steam 帐户用户名",
@@ -19,7 +19,7 @@
     "schema.generic.steamid64": "您的 64 位 SteamID",
     "schema.performance": "性能",
     "schema.remote_access": "远程访问",
-    "schema.security": "安全",
+    "schema.security": "安全性",
     "schema.trading": "交易",
     "schema.updates": "更新",
     "static.add": "新增"

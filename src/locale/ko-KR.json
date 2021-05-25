@@ -6,7 +6,7 @@
     "link.asf": "ASF",
     "link.bot": "봇",
     "link.home": "홈",
-    "schema.access": "접근",
+    "schema.access": "접근권한",
     "schema.advanced": "고급",
     "schema.basic": "기본",
     "schema.bot.SteamLogin.description": "당신의 스팀 계정 로그인",

@@ -7,7 +7,7 @@
     "link.bot": "Bot",
     "link.home": "Domovská stránka",
     "schema.access": "Prístup",
-    "schema.advanced": "Rozšírené",
+    "schema.advanced": "Pokročilé",
     "schema.basic": "Základné",
     "schema.bot.SteamLogin.description": "Steam prihlasovacie meno",
     "schema.bot.SteamPassword.description": "Steam prihlasovacie heslo",

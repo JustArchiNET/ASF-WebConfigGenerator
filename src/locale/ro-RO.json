@@ -2,12 +2,12 @@
     "app.name": "Generator de configurații ASF",
     "button.advanced": "Comută setările avansate",
     "button.download": "Descarcă",
-    "home.topic": "Generatorul de configurații ASF este un instrument utilitar mic scris în JavaScript care te ajută să îți creezi fișierele de configurare ASF. După descărcarea configurației generate, mut-o în folderul <var>config</var> înăuntrul directorului principal ASF. Pentru documentație completă consultă <a href=\"https://github.com/JustArchi/ArchiSteamFarm/wiki/Configuration\" target=\"_blank\" rel=\"noopener\">wiki-ul</a> nostru. Sperăm că instrumentul nostru îți va fi util.",
+    "home.topic": "Generatorul de configurații ASF este un mic instrument utilitar scris în JavaScript care te ajută să îți creezi fișierele de configurare ASF. După descărcarea configurației generate, mut-o în folderul <var>config</var> înăuntrul directorului principal ASF. Pentru documentația completă consultă <a href=\"https://github.com/JustArchi/ArchiSteamFarm/wiki/Configuration\" target=\"_blank\" rel=\"noopener\">wiki-ul</a> nostru. Sperăm că instrumentul nostru îți va fi util.",
     "link.asf": "ASF",
     "link.bot": "Bot",
     "link.home": "Pagina principală",
     "schema.access": "Acces",
-    "schema.advanced": "Avansat",
+    "schema.advanced": "Setări avansate",
     "schema.basic": "De bază",
     "schema.bot.SteamLogin.description": "Numele de autentificare al contului tău Steam",
     "schema.bot.SteamPassword.description": "Parola contului tău Steam",
@@ -20,7 +20,7 @@
     "schema.performance": "Performanță",
     "schema.remote_access": "Acces de la distanță",
     "schema.security": "Securitate",
-    "schema.trading": "Realizarea de schimburi",
+    "schema.trading": "Tranzacționare",
     "schema.updates": "Actualizări",
     "static.add": "Adaugă"
 }
