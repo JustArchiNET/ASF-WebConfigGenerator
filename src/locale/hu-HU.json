@@ -1,5 +1,5 @@
 {
-    "app.name": "ASF Config Generátor",
+    "app.name": "ASF Beállítás Generátor",
     "button.advanced": "Haladó beállítások",
     "button.download": "Letöltés",
     "home.topic": "Az ASF Config Generátor egy JavaScriptben íródott segédeszköz, ami segít neked elkészíteni az ASF-hez szükséges config fáljokat. Miután letöltötted a generált configot, helyezd át a <var>config</var> mappába az ASF fő könyvtárán belül. A teljes dokumentációt erről a <a href=\"https://github.com/JustArchi/ArchiSteamFarm/wiki/Configuration\" target=\"_blank\" rel=\"noopener\">wikin</a> találod. Reméljük hasznos lesz az eszköz számodra.",
