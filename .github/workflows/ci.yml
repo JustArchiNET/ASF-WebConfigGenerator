@@ -16,12 +16,12 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v2.3.4
       with:
         submodules: recursive
 
     - name: Setup Node.js with npm
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v2.2.0
       with:
         check-latest: true
         node-version: ${{ env.NODE_JS_VERSION }}
@@ -50,14 +50,14 @@ jobs:
 
     - name: Upload ASF-WebConfigGenerator
       continue-on-error: true
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v2.2.4
       with:
         name: ${{ matrix.os }}_ASF-WebConfigGenerator
         path: docs
 
     - name: Import GPG key
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && startsWith(matrix.os, 'ubuntu-') }}
-      uses: crazy-max/ghaction-import-gpg@v3
+      uses: crazy-max/ghaction-import-gpg@v3.1.0
       with:
         gpg-private-key: ${{ secrets.ARCHIBOT_GPG_PRIVATE_KEY }}
         git-user-signingkey: true
@@ -78,7 +78,7 @@ jobs:
     - name: Push changes
       continue-on-error: true
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && startsWith(matrix.os, 'ubuntu-') }}
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
