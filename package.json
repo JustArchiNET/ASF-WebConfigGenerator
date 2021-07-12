@@ -23,7 +23,7 @@
     "html-webpack-plugin": "5.3.2",
     "sass": "1.35.2",
     "sass-loader": "12.1.0",
-    "style-loader": "3.0.0",
+    "style-loader": "3.1.0",
     "url-loader": "4.1.1",
     "vue-loader": "15.9.7",
     "vue-style-loader": "4.1.3",
