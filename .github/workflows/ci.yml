@@ -1,4 +1,4 @@
-name: ASF-WebConfigGenerator-CI
+name: ASF-WebConfigGenerator-ci
 
 on: [push, pull_request]
 
@@ -18,7 +18,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2.3.5
       with:
-        submodules: recursive
         token: ${{ secrets.ARCHIBOT_GITHUB_TOKEN }}
 
     - name: Setup Node.js with npm
