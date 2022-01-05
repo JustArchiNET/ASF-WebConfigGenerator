@@ -7,12 +7,14 @@
     "schema.basic": "Основни",
     "schema.bot.SteamLogin.description": "Вашият Steam профил",
     "schema.bot.SteamPassword.description": "Вашата Steam парола",
+    "schema.bot.name": "Име",
     "schema.bot.name.description": "Име на бота",
     "schema.connection": "Свързване",
     "schema.customization": "Персонализиране",
     "schema.farming": "Вадене на карти",
     "schema.generic.steamid64": "Вашият SteamID64",
     "schema.remote_access": "Отдалечен достъп",
+    "schema.trading": "Търговия",
     "schema.updates": "Обновления",
     "static.add": "Добави"
 }
