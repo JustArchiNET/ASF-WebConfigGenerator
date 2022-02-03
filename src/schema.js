@@ -314,10 +314,9 @@ export default {
                         values: [
                             { value: 0, name: 'None' },
                             { value: 1, name: 'SteamGroup' },
-                            { value: 2, name: 'TradeMatcher' },
-                            { value: 4, name: 'PublicListing' }
+                            { value: 2, name: 'PublicListing' }
                         ],
-                        defaultValue: 7
+                        defaultValue: 3
                     },
                     {
                         type: 'InputText',
