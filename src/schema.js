@@ -1,7 +1,7 @@
 import Validators from './validators';
 
 export default {
-    'V5.2.3.0+': {
+    'V5.2.3.3+': {
         asf: [
             {
                 legend: 'schema.basic',
@@ -549,6 +549,19 @@ export default {
                         type: 'InputText',
                         label: 'CustomGamePlayedWhileIdle',
                         field: 'CustomGamePlayedWhileIdle'
+                    },
+                    {
+                        type: 'InputFlag',
+                        label: 'OnlineFlags',
+                        field: 'OnlineFlags',
+                        values: [
+                            { value: 0, name: 'None' },
+                            { value: 256, name: 'ClientTypeWeb' },
+                            { value: 512, name: 'ClientTypeMobile' },
+                            { value: 1024, name: 'ClientTypeTenfoot' },
+                            { value: 2048, name: 'ClientTypeVR' }
+                        ],
+                        defaultValue: 0
                     },
                     {
                         type: 'InputSelect',
