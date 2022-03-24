@@ -4,7 +4,7 @@ Standalone web config generator for ASF
 
 [![Build status (GitHub)](https://img.shields.io/github/workflow/status/JustArchiNET/ASF-WebConfigGenerator/ASF-WebConfigGenerator-CI/main?label=GitHub&maxAge=600)](https://github.com/JustArchiNET/ASF-WebConfigGenerator/actions?query=branch%3Amain)
 [![Github last commit date](https://img.shields.io/github/last-commit/JustArchiNET/ASF-WebConfigGenerator?label=Updated&maxAge=600)](https://github.com/JustArchiNET/ASF-WebConfigGenerator/commits)
-[![License](https://img.shields.io/github/license/JustArchiNET/ASF-WebConfigGenerator?label=License&maxAge=2592000)](https://github.com/JustArchiNET/ASF-WebConfigGenerator/blob/main/LICENSE-2.0.txt)
+[![License](https://img.shields.io/github/license/JustArchiNET/ASF-WebConfigGenerator?label=License&maxAge=2592000)](https://github.com/JustArchiNET/ASF-WebConfigGenerator/blob/main/LICENSE.txt)
 
 ***
 
