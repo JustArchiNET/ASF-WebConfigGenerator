@@ -48,7 +48,6 @@ jobs:
         token: ${{ secrets.ASF_CROWDIN_API_TOKEN }}
 
     - name: Upload ASF-WebConfigGenerator
-      continue-on-error: true
       uses: actions/upload-artifact@v3.0.0
       with:
         name: ${{ matrix.os }}_ASF-WebConfigGenerator
@@ -75,7 +74,6 @@ jobs:
         fi
 
     - name: Push changes
-      continue-on-error: true
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && startsWith(matrix.os, 'ubuntu-') }}
       uses: ad-m/github-push-action@v0.6.0
       with:
