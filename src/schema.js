@@ -128,7 +128,8 @@ export default {
                         label: 'WebProxy',
                         field: 'WebProxy',
                         placeholder: '',
-                        type: 'InputText'
+                        type: 'InputText',
+                        validator: Validators.url
                     },
                     {
                         label: 'WebProxyPassword',
