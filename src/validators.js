@@ -90,7 +90,7 @@ export default {
         const err = [];
 
         // Range 76561197960265729-76561202255233023
-        const re = /^76561[0-9]{12}$/;
+        const re = /^76561[1-2][0-9]{11}$/;
         if (!re.test(value)) err.push('This is not a valid steamid!');
 
         return err;
@@ -102,7 +102,7 @@ export default {
         const err = [];
 
         // Range 103582791429521408-103582795724488703
-        const re = /^10358279[0-9]{10}$/;
+        const re = /^10358279[1-5][0-9]{9}$/;
         if (!re.test(value)) err.push('This is not a valid clan id!');
 
         return err;
