@@ -126,6 +126,24 @@ export default {
 
         return err;
     },
+    url(value, schema) {
+        const emptyError = checkEmpty(value, schema.required);
+        if (!isNil(emptyError)) return emptyError;
+
+        const err = [];
+
+        if (!isString(value)) {
+            err.push('This is not a text!');
+        } else {
+            try {
+                new URL(value);
+            } catch {
+                err.push('This is not a valid URL!');
+            }
+        }
+
+        return err;
+    },
     tradeToken: limitedString(8, 8),
     byte: limitedNumber(0, 255),
     ushort: limitedNumber(0, 65535),
