@@ -26,17 +26,27 @@ function limitedNumber(min, max) {
 
         const err = [];
 
-        value = parseInt(value, 10);
-
-        if (!isNumber(value) || isNaN(value)) {
-            err.push('Not a valid number!');
+        if (Array.isArray(value)) {
+            for (const entry of value) {
+                checkNumber(entry, min, max, err);
+            }
         } else {
-            if (value > max) err.push('Value too big!');
-            else if (value < min) err.push('Value too small!');
+            checkNumber(value, min, max, err);
         }
 
         return err;
     };
+}
+
+function checkNumber(value, min, max, err) {
+    value = Number(value);
+
+    if (!isNumber(value) || isNaN(value)) {
+        err.push('Not a valid number!');
+    } else {
+        if (value > max) err.push('Value too big!');
+        else if (value < min) err.push('Value too small!');
+    }
 }
 
 function limitedString(min, max) {
