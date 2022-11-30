@@ -13,12 +13,6 @@ export default {
                         type: 'InputText',
                         description: 'schema.generic.steamid64',
                         validator: Validators.steamid
-                    },
-                    {
-                        label: 'IPC',
-                        field: 'IPC',
-                        defaultValue: true,
-                        type: 'InputCheckbox'
                     }
                 ]
             },
@@ -79,6 +73,12 @@ export default {
                         label: 'Headless',
                         field: 'Headless',
                         defaultValue: false,
+                        type: 'InputCheckbox'
+                    },
+                    {
+                        label: 'IPC',
+                        field: 'IPC',
+                        defaultValue: true,
                         type: 'InputCheckbox'
                     },
                     {
