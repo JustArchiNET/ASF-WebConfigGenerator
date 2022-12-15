@@ -157,7 +157,7 @@ export default {
         } else {
             const regex = /^[0-9a-fA-F]{32}$/;
 
-            if (!re.test(value)) err.push('This is not a valid UUID!');
+            if (!regex.test(value)) err.push('This is not a valid UUID!');
         }
 
         return err;
