@@ -146,6 +146,22 @@ export default {
 
         return err;
     },
+    uuid(value, schema) {
+        const emptyError = checkEmpty(value, schema.required);
+        if (!isNil(emptyError)) return emptyError;
+
+        const err = [];
+
+        if (!isString(value)) {
+            err.push('This is not a text!');
+        } else {
+            const regex = /^[0-9a-fA-F]{32}$/;
+
+            if (!re.test(value)) err.push('This is not a valid UUID!');
+        }
+
+        return err;
+    },
     tradeToken: limitedString(8, 8),
     byte: limitedNumber(0, 255),
     ushort: limitedNumber(0, 65535),
