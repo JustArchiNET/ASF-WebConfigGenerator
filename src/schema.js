@@ -1,7 +1,7 @@
 import Validators from './validators';
 
 export default {
-    'V5.4.1.0+': {
+    'V5.4.1.2+': {
         asf: [
             {
                 legend: 'schema.basic',
@@ -27,6 +27,12 @@ export default {
                 legend: 'schema.trading',
                 advanced: true,
                 fields: [
+                    {
+                        type: 'InputCheckbox',
+                        field: 'FilterBadBots',
+                        label: 'FilterBadBots',
+                        defaultValue: true
+                    },
                     {
                         label: 'MaxTradeHoldDuration',
                         field: 'MaxTradeHoldDuration',
