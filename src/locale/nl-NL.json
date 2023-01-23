@@ -1,7 +1,7 @@
 {
-    "app.name": "ASF Config Generator",
-    "button.advanced": "Geavanceerde instellingen in-/uitschakelen",
-    "button.download": "Download",
+    "app.name": "ASF-configuratiegenerator",
+    "button.advanced": "Schakel tussen geavanceerde instellingen",
+    "button.download": "Downloaden",
     "home.topic": "ASF Config Generator is een klein hulpprogramma geschreven in Javascript dat helpt om configuratiebestanden te maken. Nadat je het gegenereerde configuratiebestand hebt gedownload, verplaats je het naar de <var>config</var> map in de ASF hoofdmap. Voor volledige documentatie verwijzen we je naar <a href=\"https://github.com/JustArchi/ArchiSteamFarm/wiki/Configuration\" target=\"_blank\" rel=\"noopener\">wiki</a>. We hopen dat dit hulpprogramma nuttig voor je is.",
     "link.asf": "ASF",
     "link.bot": "Bot",
