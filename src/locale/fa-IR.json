@@ -1,1 +1,26 @@
-{}
+{
+    "app.name": "سازنده کانفیگ ASF",
+    "button.advanced": "تغییر به تنظیمات پیشرفته",
+    "button.download": "دانلود",
+    "home.topic": "سازنده کانفیگ ASF یک ابزار کاربردی کوچک نوشته شده با جاوا اسکریپت است که کمک می‌کند فایل های کانفیگ ASF را بسازید. بعد از دانلود کانفیگ ساخته شده، آن را به پوشه <var>کانفیگ</var> در دایرکتوری اصلی ASF قرار دهید. برای مستندات کامل به <a href=\"https://github.com/JustArchi/ArchiSteamFarm/wiki/Configuration\" target=\"_blank\" rel=\"noopener\">ویکی</a> ما مراجعه کنید. امیدواریم ابزار ما برای شما مفید باشد.",
+    "link.asf": "ASF",
+    "link.bot": "ربات",
+    "link.home": "خانه",
+    "schema.access": "دسترسی",
+    "schema.advanced": "پیشرفته",
+    "schema.basic": "پایه",
+    "schema.bot.SteamLogin.description": "نام کاربری اکانت استیم شما",
+    "schema.bot.SteamPassword.description": "پسورد اکانت استیم شما",
+    "schema.bot.name": "نام",
+    "schema.bot.name.description": "نام ربات",
+    "schema.connection": "اتصالات",
+    "schema.customization": "شخصی سازی",
+    "schema.farming": "فارم کردن",
+    "schema.generic.steamid64": "SteamID64 شما",
+    "schema.performance": "کارایی",
+    "schema.remote_access": "دسترسی از راه دور",
+    "schema.security": "امنیت",
+    "schema.trading": "تجارت کردن",
+    "schema.updates": "به‌روزرسانی‌ها",
+    "static.add": "افزودن"
+}
