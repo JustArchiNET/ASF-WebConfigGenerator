@@ -1,1 +1,7 @@
-{}
+{
+    "schema.basic": "ძირითადი",
+    "schema.performance": "წარმადობა",
+    "schema.security": "უსაფრთხოება",
+    "schema.updates": "განახლებები",
+    "static.add": "დამატება"
+}
