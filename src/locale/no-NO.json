@@ -1,1 +1,24 @@
-{}
+{
+    "button.advanced": "Veksle avanserte innstillinger",
+    "button.download": "Nedlasting",
+    "link.asf": "ASF",
+    "link.bot": "Bot",
+    "link.home": "Hjem",
+    "schema.access": "Tilgang",
+    "schema.advanced": "Avansert",
+    "schema.basic": "Grunnleggende",
+    "schema.bot.SteamLogin.description": "Din Steam-konto innlogging",
+    "schema.bot.SteamPassword.description": "Ditt Steam kontopassord",
+    "schema.bot.name": "Navn",
+    "schema.bot.name.description": "Bottens navn",
+    "schema.connection": "Tilkobling",
+    "schema.customization": "Tilpasning",
+    "schema.farming": "Farming",
+    "schema.generic.steamid64": "Din SteamID64",
+    "schema.performance": "Ytelse",
+    "schema.remote_access": "Fjerntilgang",
+    "schema.security": "Sikkerhet",
+    "schema.trading": "Bytting",
+    "schema.updates": "Oppdateringer",
+    "static.add": "Legg til"
+}
