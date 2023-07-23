@@ -1,6 +1,6 @@
 {
     "app.name": "ASF Yapılandırma Oluşturucu",
-    "button.advanced": "Gelişmiş ayarları aç/kapat",
+    "button.advanced": "Gelişmiş ayarları değiştir",
     "button.download": "İndir",
     "home.topic": "ASF Yapılandırma Oluşturucu, ASF yapılandırma dosyalarınızı oluşturmanıza yardımcı olan, JavaScript ile yazılmış küçük bir yardımcı araçtır. Oluşturulan yapılandırmayı indirdikten sonra, ASF ana dizininin içindeki <var>config</var> klasörüne taşıyın. Tam belgelendirme için <a href=\"https://github.com/JustArchi/ArchiSteamFarm/wiki/Configuration\" target=\"_blank\" rel=\"noopener\">vikimize</a> bakın. Umarız aracımız sizin için kullanışlı olur.",
     "link.asf": "ASF",
@@ -15,7 +15,7 @@
     "schema.bot.name.description": "Botun ismi",
     "schema.connection": "Bağlantı",
     "schema.customization": "Özelleştirme",
-    "schema.farming": "İşlenen",
+    "schema.farming": "Çiftçilik",
     "schema.generic.steamid64": "SteamID64 kimliğiniz",
     "schema.performance": "Performans",
     "schema.remote_access": "Uzaktan erişim",
