@@ -18,6 +18,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4.0.0
       with:
+        show-progress: false
         token: ${{ secrets.ARCHIBOT_GITHUB_TOKEN }}
 
     - name: Setup Node.js with npm
