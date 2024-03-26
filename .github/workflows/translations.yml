@@ -3,6 +3,7 @@ name: ASF-WebConfigGenerator-translations
 on:
   schedule:
   - cron: '5 2 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
