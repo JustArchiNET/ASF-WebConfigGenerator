@@ -54,6 +54,7 @@ jobs:
     - name: Upload ASF-WebConfigGenerator
       uses: actions/upload-artifact@v4.3.1
       with:
+        if-no-files-found: error
         name: ${{ matrix.os }}_ASF-WebConfigGenerator
         path: docs
 
