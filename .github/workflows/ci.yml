@@ -52,7 +52,7 @@ jobs:
         token: ${{ secrets.ASF_CROWDIN_API_TOKEN }}
 
     - name: Upload ASF-WebConfigGenerator
-      uses: actions/upload-artifact@v4.3.1
+      uses: actions/upload-artifact@v4.3.2
       with:
         if-no-files-found: error
         name: ${{ matrix.os }}_ASF-WebConfigGenerator
