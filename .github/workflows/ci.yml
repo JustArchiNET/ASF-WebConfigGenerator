@@ -5,8 +5,7 @@ on: [push, pull_request]
 env:
   NODE_JS_VERSION: 'lts/*'
 
-permissions:
-  contents: write
+permissions: {}
 
 jobs:
   build:
@@ -22,7 +21,6 @@ jobs:
       uses: actions/checkout@v4.1.6
       with:
         show-progress: false
-        token: ${{ secrets.ARCHIBOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
 
     - name: Setup Node.js with npm
       uses: actions/setup-node@v4.0.2
@@ -48,30 +46,3 @@ jobs:
         if-no-files-found: error
         name: ${{ matrix.os }}_ASF-WebConfigGenerator
         path: docs
-
-    - name: Import GPG key
-      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && startsWith(matrix.os, 'ubuntu-') }}
-      uses: crazy-max/ghaction-import-gpg@v6.1.0
-      with:
-        gpg_private_key: ${{ secrets.ARCHIBOT_GPG_PRIVATE_KEY }}
-        git_user_signingkey: true
-        git_commit_gpgsign: true
-
-    - name: Deploy ASF-WebConfigGenerator
-      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && startsWith(matrix.os, 'ubuntu-') }}
-      shell: sh
-      run: |
-        set -eu
-
-        git add -A "docs"
-
-        if ! git diff --cached --quiet; then
-            git commit -m "Automatic ASF-WebConfigGenerator deployment"
-        fi
-
-    - name: Push changes
-      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && startsWith(matrix.os, 'ubuntu-') }}
-      uses: ad-m/github-push-action@v0.8.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}

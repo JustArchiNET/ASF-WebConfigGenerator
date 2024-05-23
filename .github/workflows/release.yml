@@ -1,0 +1,66 @@
+name: ASF-WebConfigGenerator-release
+
+on:
+  push:
+    branches:
+    - main
+
+env:
+  NODE_JS_VERSION: 'lts/*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    environment: release
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4.1.6
+      with:
+        show-progress: false
+        token: ${{ secrets.ARCHIBOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+
+    - name: Setup Node.js with npm
+      uses: actions/setup-node@v4.0.2
+      with:
+        check-latest: true
+        node-version: ${{ env.NODE_JS_VERSION }}
+
+    - name: Verify Node.js
+      run: node -v
+
+    - name: Verify npm
+      run: npm -v
+
+    - name: Install npm modules for ASF-WebConfigGenerator
+      run: npm ci --no-progress
+
+    - name: Build ASF-WebConfigGenerator
+      run: npm run-script build --no-progress
+
+    - name: Import GPG key
+      uses: crazy-max/ghaction-import-gpg@v6.1.0
+      with:
+        gpg_private_key: ${{ secrets.ARCHIBOT_GPG_PRIVATE_KEY }}
+        git_user_signingkey: true
+        git_commit_gpgsign: true
+
+    - name: Deploy ASF-WebConfigGenerator
+      shell: sh
+      run: |
+        set -eu
+
+        git add -A "docs"
+
+        if ! git diff --cached --quiet; then
+            git commit -m "Automatic ASF-WebConfigGenerator deployment"
+        fi
+
+    - name: Push changes
+      uses: ad-m/github-push-action@v0.8.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
