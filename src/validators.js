@@ -83,6 +83,17 @@ export default {
 
         return err;
     },
+    botName(value, schema) {
+        const emptyError = checkEmpty(value, schema.required);
+        if (!isNil(emptyError)) return emptyError;
+
+        const err = [];
+
+        if (!isString(value)) err.push('This is not a text!');
+        if (value.toUpperCase() === 'ASF') err.push('Using "ASF" as a bot name is not allowed!')
+
+        return err;
+    },
     steamid(value, schema) {
         const emptyError = checkEmpty(value, schema.required);
         if (!isNil(emptyError)) return emptyError;
