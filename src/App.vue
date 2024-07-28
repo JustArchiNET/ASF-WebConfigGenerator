@@ -31,15 +31,22 @@
         computed: {
             availableLocales() {
                 return this.$i18n.availableLocales.map((locale) => {
-                    return locale === 'strings' ? 'en-US' : locale
-                }).sort().map((locale) => {
-                    return { value: locale === 'en-US' ? 'strings' : locale, code: locale }
+                    return {
+                        value: locale,
+                        code: locale === 'strings' ? 'en-US' : locale
+                    }
+                }).sort((lhs, rhs) => {
+                    return lhs.code.localeCompare(rhs.code)
                 })
             },
             displayLocales() {
                 return this.availableLocales.map((locale) => {
-                    const displayNamesTranslator = new Intl.DisplayNames([locale.code], { type: 'language' });
-                    return { value: locale.value, name: displayNamesTranslator.of(locale.code) }
+                    if ('Intl' in window && 'DisplayNames' in Intl) {
+                        const displayNamesTranslator = new Intl.DisplayNames([locale.code], { type: 'language' });
+                        return { value: locale.value, name: displayNamesTranslator.of(locale.code) }
+                    }
+
+                    return { value: locale.value, name: locale.code }
                 })
             }
         }
