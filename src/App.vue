@@ -1,11 +1,18 @@
 <template>
     <div id="app">
+        <select class="language-switch" v-model="$i18n.locale">
+            <option v-for="locale in displayLocales" :key="`locale-${locale.value}`" :value="locale.value">
+                {{ locale.name }}
+            </option>
+        </select>
+
         <div class="head">
             <a href="#" class="logo">
                 <img src="./assets/logo.png" alt="asf logo">
             </a>
             <h1 class="text-center" v-html="$t('app.name')"></h1>
         </div>
+
         <div class="menu">
             <ul>
                 <li><router-link :to="{ name: 'home' }" active-class="active" v-html="$t('link.home')" exact></router-link></li>
@@ -21,8 +28,27 @@
 <script>
     export default {
         name: 'app',
-        data() {
-            return {}
+        computed: {
+            availableLocales() {
+                return this.$i18n.availableLocales.map((locale) => {
+                    return {
+                        value: locale,
+                        code: locale === 'strings' ? 'en-US' : locale
+                    }
+                }).sort((lhs, rhs) => {
+                    return lhs.code.localeCompare(rhs.code)
+                })
+            },
+            displayLocales() {
+                return this.availableLocales.map((locale) => {
+                    if ('Intl' in window && 'DisplayNames' in Intl) {
+                        const displayNamesTranslator = new Intl.DisplayNames([locale.code], { type: 'language' });
+                        return { value: locale.value, name: displayNamesTranslator.of(locale.code) }
+                    }
+
+                    return { value: locale.value, name: locale.code }
+                })
+            }
         }
     }
 </script>
@@ -83,5 +109,12 @@
 
     .logo {
         margin: 0 auto;
+    }
+
+    .language-switch {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        width: 220px;
     }
 </style>
