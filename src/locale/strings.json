@@ -22,5 +22,16 @@
     "schema.security": "Security",
     "schema.trading": "Trading",
     "schema.updates": "Updates",
-    "static.add": "Add"
+    "static.add": "Add",
+    "validators.required": "Field required!",
+    "validators.number": "Not a valid number!",
+    "validators.number-big": "Number too big!",
+    "validators.number-small": "Number too small!",
+    "validators.string": "Not a valid text!",
+    "validators.string-big": "Text too long!",
+    "validators.string-small": "Text too short!",
+    "validators.steamid": "Not a valid SteamID!",
+    "validators.clan": "Not a valid ClanID!",
+    "validators.url": "Not a valid URL!",
+    "validators.uuid": "Not a valid UUID!"
 }

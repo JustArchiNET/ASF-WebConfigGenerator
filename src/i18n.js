@@ -1,3 +1,6 @@
+import Vue from 'vue';
+import VueI18n from 'vue-i18n'
+
 const defaultLocale = 'strings';
 const nameRegex = /\.\/(\S+)\.json/i;
 
@@ -22,6 +25,7 @@ function loadLocales() {
     const languages = require.context('./locale/', false, /\.json/);
 
     locales[defaultLocale] = languages(defaultLanguageFile);
+    const defaultLanguage = locales[defaultLocale]
 
     for (const lang of languages.keys()) {
         if (lang === defaultLanguageFile) continue; // Already loaded.
@@ -29,9 +33,10 @@ function loadLocales() {
         const languageName = lang.match(nameRegex)[1];
         const language = languages(lang);
 
-        for (const key in language) {
-            if (!language.hasOwnProperty(key)) continue;
-            if (language[key] === '') language[key] = locales[defaultLocale][key];
+        for (const key in defaultLanguage) {
+            if (!language.hasOwnProperty(key) || language[key] === '') {
+                language[key] = defaultLanguage[key];
+            }
         }
 
         locales[languageName] = language;
@@ -43,4 +48,5 @@ function loadLocales() {
 const messages = loadLocales();
 const locale = getLocale(Object.keys(messages));
 
-export default { messages, locale };
+Vue.use(VueI18n);
+export const i18n = new VueI18n({ messages, locale });
