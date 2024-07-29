@@ -317,7 +317,8 @@ export default {
                         label: 'Name',
                         field: 'name',
                         required: true,
-                        description: 'schema.bot.name.description'
+                        description: 'schema.bot.name.description',
+                        validator: Validators.botName
                     },
                     {
                         type: 'InputText',
