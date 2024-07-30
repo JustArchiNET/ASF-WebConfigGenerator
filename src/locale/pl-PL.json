@@ -22,5 +22,16 @@
     "schema.security": "Zabezpieczenia",
     "schema.trading": "Handel",
     "schema.updates": "Aktualizacje",
-    "static.add": "Dodaj"
+    "static.add": "Dodaj",
+    "validators.required": "Wymagane pole!",
+    "validators.number": "Nieprawidłowy numer!",
+    "validators.number-big": "Liczba jest zbyt duża!",
+    "validators.number-small": "Liczba jest zbyt mała!",
+    "validators.string": "Nieprawidłowy tekst!",
+    "validators.string-big": "Tekst jest zbyt długi!",
+    "validators.string-small": "Tekst jest zbyt krótki!",
+    "validators.steamid": "Nieprawidłowy SteamID!",
+    "validators.clan": "Nieprawidłowy ClanID!",
+    "validators.url": "Nieprawidłowy adres URL!",
+    "validators.uuid": "Nieprawidłowy UUID!"
 }
