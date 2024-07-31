@@ -22,5 +22,16 @@
     "schema.security": "安全",
     "schema.trading": "交易",
     "schema.updates": "更新",
-    "static.add": "新增"
+    "static.add": "新增",
+    "validators.required": "字段必填！",
+    "validators.number": "不是有效的数字！",
+    "validators.number-big": "数字太大！",
+    "validators.number-small": "数字太小！",
+    "validators.string": "不是有效的文本！",
+    "validators.string-big": "文本太长！",
+    "validators.string-small": "文本太短！",
+    "validators.steamid": "不是有效的 SteamID！",
+    "validators.clan": "不是有效的 ClanID！",
+    "validators.url": "不是有效的 URL！",
+    "validators.uuid": "不是有效的 UUID！"
 }
