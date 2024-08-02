@@ -41,7 +41,7 @@ jobs:
       run: npm run-script build --no-progress
 
     - name: Upload ASF-WebConfigGenerator
-      uses: actions/upload-artifact@v4.3.4
+      uses: actions/upload-artifact@v4.3.5
       with:
         if-no-files-found: error
         name: ${{ matrix.os }}_ASF-WebConfigGenerator
