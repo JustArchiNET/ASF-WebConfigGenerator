@@ -22,5 +22,16 @@
     "schema.security": "Bảo mật",
     "schema.trading": "Trao đổi",
     "schema.updates": "Các cập nhật",
-    "static.add": "Thêm"
+    "static.add": "Thêm",
+    "validators.required": "Dòng bắt buộc!",
+    "validators.number": "Số không hợp lệ!",
+    "validators.number-big": "Số quá lớn!",
+    "validators.number-small": "Số quá nhỏ!",
+    "validators.string": "Văn bản không hợp lệ!",
+    "validators.string-big": "Văn bản quá dài!",
+    "validators.string-small": "Văn bản quá ngắn!",
+    "validators.steamid": "SteamID không hợp lệ!",
+    "validators.clan": "ClanID không hợp lệ!",
+    "validators.url": "URL không hợp lệ!",
+    "validators.uuid": "UUID không hợp lệ!"
 }
