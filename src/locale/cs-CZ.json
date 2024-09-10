@@ -22,5 +22,16 @@
     "schema.security": "Zabezpečení",
     "schema.trading": "Obchodování",
     "schema.updates": "Aktualizace",
-    "static.add": "Přidat"
+    "static.add": "Přidat",
+    "validators.required": "Pole je povinné!",
+    "validators.number": "Neplatné číslo!",
+    "validators.number-big": "Číslo je příliš velké!",
+    "validators.number-small": "Číslo je příliš malé!",
+    "validators.string": "Není platný text!",
+    "validators.string-big": "Text je příliš dlouhý!",
+    "validators.string-small": "Text je příliš krátký!",
+    "validators.steamid": "Neplatné SteamID!",
+    "validators.clan": "Neplatné ClanID!",
+    "validators.url": "Neplatná URL!",
+    "validators.uuid": "Neplatné UUID!"
 }
