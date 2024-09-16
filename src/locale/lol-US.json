@@ -22,5 +22,16 @@
     "schema.security": "SECURITY",
     "schema.trading": "TRADIN",
     "schema.updates": "UPDATEZ",
-    "static.add": "ADD"
+    "static.add": "ADD",
+    "validators.required": "FIELD REQUIRD!",
+    "validators.number": "NOT VALID NUMBR!",
+    "validators.number-big": "NUMBR 2 HOOJ!",
+    "validators.number-small": "NUMBR 2 SMALL!",
+    "validators.string": "NOT VALID TEXT!",
+    "validators.string-big": "TEXT 2 LONG!",
+    "validators.string-small": "TEXT 2 SHORT!",
+    "validators.steamid": "NOT VALID SteamID!",
+    "validators.clan": "NOT VALID ClanID!",
+    "validators.url": "NOT VALID URL!",
+    "validators.uuid": "NOT VALID UUID!"
 }

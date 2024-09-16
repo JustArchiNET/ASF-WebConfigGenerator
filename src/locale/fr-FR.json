@@ -22,5 +22,14 @@
     "schema.security": "Sécurité",
     "schema.trading": "Échange",
     "schema.updates": "Mises à jour",
-    "static.add": "Ajouter"
+    "static.add": "Ajouter",
+    "validators.required": "Champ obligatoire !",
+    "validators.number": "Nombre invalide !",
+    "validators.number-big": "Nombre trop grand !",
+    "validators.number-small": "Nombre trop petit !",
+    "validators.string": "Le texte n'est pas valide !",
+    "validators.string-big": "Texte trop long !",
+    "validators.string-small": "Texte trop court !",
+    "validators.steamid": "SteamID invalide !",
+    "validators.url": "Ceci n'est pas une adresse URL valide !"
 }
