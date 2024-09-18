@@ -22,5 +22,15 @@
     "schema.security": "Безопасность",
     "schema.trading": "Обмены",
     "schema.updates": "Обновления",
-    "static.add": "Добавить"
+    "static.add": "Добавить",
+    "validators.number": "Неверный номер",
+    "validators.number-big": "Номер слишком большой",
+    "validators.number-small": "Номер слишком маленький",
+    "validators.string": "Неверный текст",
+    "validators.string-big": "Текст слишком длинный",
+    "validators.string-small": "Текст слишком короткий",
+    "validators.steamid": "Неверный SteamID!",
+    "validators.clan": "Неверный ClanID",
+    "validators.url": "Неверный URL",
+    "validators.uuid": "Неверный UUID"
 }
