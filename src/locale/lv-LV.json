@@ -22,5 +22,16 @@
     "schema.security": "Drošība",
     "schema.trading": "Darījumi",
     "schema.updates": "Atjauninājumi",
-    "static.add": "Pievienot"
+    "static.add": "Pievienot",
+    "validators.required": "Lauks nepieciešams!",
+    "validators.number": "Nav atbilstošs skaitlis!",
+    "validators.number-big": "Skaitlis ir pārāk liels!",
+    "validators.number-small": "Skaitlis ir pārāk mazs!",
+    "validators.string": "Teksts nav derīgs!",
+    "validators.string-big": "Teksts ir pārāk garš!",
+    "validators.string-small": "Teksts ir pārāk īss!",
+    "validators.steamid": "Nav derīgs SteamID!",
+    "validators.clan": "Nav derīgs ClanID!",
+    "validators.url": "Nav derīgs URL!",
+    "validators.uuid": "Nav derīgs UUID!"
 }
