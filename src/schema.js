@@ -276,7 +276,7 @@ export default {
                         options: [
                             { value: 0, name: 'None' },
                             { value: 1, name: 'Stable' },
-                            { value: 2, name: 'Experimental' }
+                            { value: 2, name: 'PreRelease' }
                         ],
                         defaultValue: 1
                     },
