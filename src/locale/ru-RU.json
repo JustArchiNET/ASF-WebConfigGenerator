@@ -23,6 +23,7 @@
     "schema.trading": "Обмены",
     "schema.updates": "Обновления",
     "static.add": "Добавить",
+    "validators.required": "Поле обязательно для заполнения",
     "validators.number": "Неверный номер",
     "validators.number-big": "Номер слишком большой",
     "validators.number-small": "Номер слишком маленький",
