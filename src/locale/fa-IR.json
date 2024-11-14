@@ -22,5 +22,16 @@
     "schema.security": "امنیت",
     "schema.trading": "تجارت کردن",
     "schema.updates": "به‌روزرسانی‌ها",
-    "static.add": "افزودن"
+    "static.add": "افزودن",
+    "validators.required": "این ردیف الزامی است!",
+    "validators.number": "شماره ی وارد شده صحیح نیست!",
+    "validators.number-big": "عدد وارد شده بسیار بزرگ است!",
+    "validators.number-small": "عدد وارد شده بسیار کوچک است!",
+    "validators.string": "جمله ی وارد شده صحیح نیست!",
+    "validators.string-big": "جمله زیادی دراز است!",
+    "validators.string-small": "جمله زیادی کوچک است!",
+    "validators.steamid": "آیدی استیم وارد شده صحیح نیست!",
+    "validators.clan": "آیدی کلن وارد شده صحیح نیست!",
+    "validators.url": "آدرس اینترنتی وارد شده صحیح نیست!",
+    "validators.uuid": "آیدی مختص(UUID) وارد شده صحیح نیست!"
 }
