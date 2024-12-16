@@ -22,5 +22,16 @@
     "schema.security": "Keamanan",
     "schema.trading": "Perdagangan",
     "schema.updates": "Pembaruan",
-    "static.add": "Menambahkan"
+    "static.add": "Menambahkan",
+    "validators.required": "Bidang wajib diisi!",
+    "validators.number": "Nomor tidak valid!",
+    "validators.number-big": "Angka terlalu besar!",
+    "validators.number-small": "Angka terlalu kecil!",
+    "validators.string": "Teks tidak valid!",
+    "validators.string-big": "Teks terlalu panjang!",
+    "validators.string-small": "Teks terlalu pendek!",
+    "validators.steamid": "SteamID tidak valid!",
+    "validators.clan": "ClanID tidak valid!",
+    "validators.url": "URL tidak valid!",
+    "validators.uuid": "UUID tidak valid!"
 }
