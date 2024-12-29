@@ -22,5 +22,16 @@
     "schema.security": "Sikkerhed",
     "schema.trading": "Bytning",
     "schema.updates": "Opdateringer",
-    "static.add": "Tilføj"
+    "static.add": "Tilføj",
+    "validators.required": "Felt påkrævet!",
+    "validators.number": "Ikke et gyldigt tal!",
+    "validators.number-big": "Tallet er for stort!",
+    "validators.number-small": "Tallet er for lille!",
+    "validators.string": "Ikke en gyldig tekst!",
+    "validators.string-big": "Tekst for lang!",
+    "validators.string-small": "Tekst for kort!",
+    "validators.steamid": "Ikke et gyldigt SteamID!",
+    "validators.clan": "Ikke en gyldig ClanID!",
+    "validators.url": "Ugyldig URL!",
+    "validators.uuid": "Ikke en gyldig UUID!"
 }
