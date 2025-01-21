@@ -22,5 +22,16 @@
     "schema.security": "Güvenlik",
     "schema.trading": "Takas",
     "schema.updates": "Güncellemeler",
-    "static.add": "Ekle"
+    "static.add": "Ekle",
+    "validators.required": "Gerekli alan!",
+    "validators.number": "Geçerli bir sayı değil!",
+    "validators.number-big": "Sayı çok büyük!",
+    "validators.number-small": "Sayı çok küçük!",
+    "validators.string": "Geçersiz metin!",
+    "validators.string-big": "Metin çok uzun!",
+    "validators.string-small": "Metin çok kısa!",
+    "validators.steamid": "Geçersiz SteamID!",
+    "validators.clan": "Geçersiz ClanID!",
+    "validators.url": "Geçersiz URL!",
+    "validators.uuid": "Geçersiz UUID!"
 }
