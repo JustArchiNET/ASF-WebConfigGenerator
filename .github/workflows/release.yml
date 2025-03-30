@@ -42,7 +42,7 @@ jobs:
       run: npm run-script build --no-progress
 
     - name: Import GPG key
-      uses: crazy-max/ghaction-import-gpg@v6.2.0
+      uses: crazy-max/ghaction-import-gpg@v6.3.0
       with:
         gpg_private_key: ${{ secrets.ARCHIBOT_GPG_PRIVATE_KEY }}
         git_user_signingkey: true
