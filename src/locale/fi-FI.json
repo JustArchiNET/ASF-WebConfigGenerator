@@ -22,5 +22,16 @@
     "schema.security": "Turvallisuus",
     "schema.trading": "Kaupankäynti",
     "schema.updates": "Päivitykset",
-    "static.add": "Lisää"
+    "static.add": "Lisää",
+    "validators.required": "Kenttä vaaditaan!",
+    "validators.number": "Virheellinen numero!",
+    "validators.number-big": "Numero liian suuri!",
+    "validators.number-small": "Numero liian pieni!",
+    "validators.string": "Teksti ei ole kelvollinen!",
+    "validators.string-big": "Liian pitkä teksti!",
+    "validators.string-small": "Liian lyhyt teksti!",
+    "validators.steamid": "SteamID ei ole kelvollinen!",
+    "validators.clan": "ClanID ei ole kelvollinen!",
+    "validators.url": "Virheellinen URL!",
+    "validators.uuid": "Virheellinen UUID!"
 }
