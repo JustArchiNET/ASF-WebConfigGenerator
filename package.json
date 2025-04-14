@@ -30,7 +30,7 @@
     "vue-template-compiler": "2.7.16",
     "webpack": "5.99.5",
     "webpack-cli": "4.10.0",
-    "webpack-dev-server": "4.15.2"
+    "webpack-dev-server": "5.2.1"
   },
   "engines": {
     "node": ">= 8.0.0",
