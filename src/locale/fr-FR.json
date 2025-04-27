@@ -31,5 +31,6 @@
     "validators.string-big": "Texte trop long !",
     "validators.string-small": "Texte trop court !",
     "validators.steamid": "SteamID invalide !",
-    "validators.url": "Ceci n'est pas une adresse URL valide !"
+    "validators.url": "Ceci n'est pas une adresse URL valide !",
+    "validators.uuid": "UUID non valide !"
 }
