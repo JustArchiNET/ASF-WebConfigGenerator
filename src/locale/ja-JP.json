@@ -22,5 +22,16 @@
     "schema.security": "セキュリティ",
     "schema.trading": "トレード",
     "schema.updates": "アップデート",
-    "static.add": "追加"
+    "static.add": "追加",
+    "validators.required": "必須項目です！",
+    "validators.number": "有効な数値ではありません！",
+    "validators.number-big": "数値が大きすぎます！",
+    "validators.number-small": "数値が小さすぎます！",
+    "validators.string": "有効なテキストではありません！",
+    "validators.string-big": "テキストが長すぎます！",
+    "validators.string-small": "テキストが短すぎます！",
+    "validators.steamid": "有効なSteamIDではありません！",
+    "validators.clan": "有効な ClanID ではありません！",
+    "validators.url": "有効な URL ではありません！",
+    "validators.uuid": "有効なUUIDではありません！"
 }
