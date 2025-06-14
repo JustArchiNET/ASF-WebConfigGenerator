@@ -22,5 +22,16 @@
     "schema.security": "Безпека",
     "schema.trading": "Обміни",
     "schema.updates": "Оновлення",
-    "static.add": "Додати"
+    "static.add": "Додати",
+    "validators.required": "Обов'язкове поле!",
+    "validators.number": "Недійсний номер!",
+    "validators.number-big": "Номер занадто великий!",
+    "validators.number-small": "Номер занадто малий!",
+    "validators.string": "Неправильний текст!",
+    "validators.string-big": "Текст задовгий!",
+    "validators.string-small": "Текст замалий!",
+    "validators.steamid": "Недійсний SteamID!",
+    "validators.clan": "Недійсний ClanID!",
+    "validators.url": "Недійсна URL-адреса!",
+    "validators.uuid": "Недійсний UUID!"
 }
