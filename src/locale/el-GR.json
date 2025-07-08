@@ -22,5 +22,16 @@
     "schema.security": "Ασφάλεια",
     "schema.trading": "Ανταλλαγές",
     "schema.updates": "ΕΝΗΜΕΡΩΣΕΙΣ",
-    "static.add": "Προσθήκη"
+    "static.add": "Προσθήκη",
+    "validators.required": "Απαιτείται πεδίο!",
+    "validators.number": "Μη έγκυρος αριθμός!",
+    "validators.number-big": "Πολύ μεγάλος αριθμός!",
+    "validators.number-small": "Πολύ μικρός αριθμός!",
+    "validators.string": "Μη έγκυρο κείμενο!",
+    "validators.string-big": "Το κείμενο είναι πολύ μεγάλο!",
+    "validators.string-small": "Κείμενο πολύ σύντομο!",
+    "validators.steamid": "Μη έγκυρο SteamID!",
+    "validators.clan": "Δεν είναι έγκυρο ClanID!",
+    "validators.url": "Μη έγκυρο URL!",
+    "validators.uuid": "Μη έγκυρο UUID!"
 }

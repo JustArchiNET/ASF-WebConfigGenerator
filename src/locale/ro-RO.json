@@ -22,5 +22,16 @@
     "schema.security": "Securitate",
     "schema.trading": "Realizarea de schimburi",
     "schema.updates": "Actualizări",
-    "static.add": "Adaugă"
+    "static.add": "Adaugă",
+    "validators.required": "Câmp necesar!",
+    "validators.number": "Nu este un număr valid!",
+    "validators.number-big": "Numărul este prea mare!",
+    "validators.number-small": "Numărul este prea mic!",
+    "validators.string": "Nu este un text valid!",
+    "validators.string-big": "Text prea lung!",
+    "validators.string-small": "Text prea scurt!",
+    "validators.steamid": "Nu este un SteamID valid!",
+    "validators.clan": "Nu este un ClanID valid!",
+    "validators.url": "Nu este un URL valid!",
+    "validators.uuid": "Nu este un UUID valid!"
 }

@@ -1,6 +1,8 @@
 {
+    "app.name": "ASF Config Generator",
     "button.advanced": "Veksle avanserte innstillinger",
     "button.download": "Nedlasting",
+    "home.topic": "ASF Config Generator er et lite verktøy som er skrevet i JavaScript, og som hjelper deg med å lage ASF-konfigurasjonsfilene dine. Etter å ha lastet ned generert config, flytt den til <var>config</var> mappen i ASF hovedmappen. For fullstendig dokumentasjon, se vår <a href=\"https://github.com/JustArchi/ArchiSteamFarm/wiki/Configuration\" target=\"_blank\" rel=\"noopener\">wiki</a>. Vi håper at vårt verktøy vil være nyttig for deg.",
     "link.asf": "ASF",
     "link.bot": "Bot",
     "link.home": "Hjem",
@@ -20,5 +22,16 @@
     "schema.security": "Sikkerhet",
     "schema.trading": "Bytting",
     "schema.updates": "Oppdateringer",
-    "static.add": "Legg til"
+    "static.add": "Legg til",
+    "validators.required": "Felt kreves!",
+    "validators.number": "Ikke et gyldig tall!",
+    "validators.number-big": "Tall for stort!",
+    "validators.number-small": "Nummeret er for lite!",
+    "validators.string": "Ikke en gyldig tekst!",
+    "validators.string-big": "Teksten er for lang!",
+    "validators.string-small": "Teksten er for kort!",
+    "validators.steamid": "Ikke en gyldig SteamID!",
+    "validators.clan": "Ikke en gyldig ClanID!",
+    "validators.url": "Ikke en gyldig URL-adresse!",
+    "validators.uuid": "Ikke en gyldig UUID!"
 }

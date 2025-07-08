@@ -22,5 +22,16 @@
     "schema.security": "Beveiliging",
     "schema.trading": "Ruilhandel",
     "schema.updates": "Updates",
-    "static.add": "Toevoegen"
+    "static.add": "Toevoegen",
+    "validators.required": "Waarschuwing: Veld verplicht!",
+    "validators.number": "Geen geldig nummer!",
+    "validators.number-big": "Nummer te groot!",
+    "validators.number-small": "Nummer te klein!",
+    "validators.string": "Geen geldige tekst!",
+    "validators.string-big": "Te lang!",
+    "validators.string-small": "Tekst te kort!",
+    "validators.steamid": "Niet een geldige SteamID!",
+    "validators.clan": "Geen geldige ClanID!",
+    "validators.url": "Geen geldige URL!",
+    "validators.uuid": "Niet een geldig UUID!"
 }
