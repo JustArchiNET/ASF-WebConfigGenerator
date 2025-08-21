@@ -642,6 +642,7 @@ export default {
                         values: [
                             { value: 0, name: 'None' },
                             { value: 2, name: 'InJoinableGame' },
+                            { value: 8, name: 'RemotePlayTogether' },
                             { value: 256, name: 'ClientTypeWeb' },
                             { value: 512, name: 'ClientTypeMobile' },
                             { value: 1024, name: 'ClientTypeTenfoot' },
