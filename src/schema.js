@@ -629,7 +629,7 @@ export default {
                         type: 'InputSelect',
                         label: 'GamingDeviceType',
                         field: 'GamingDeviceType',
-                        values: [
+                        options: [
                             { value: 1, name: 'StandardPC' },
                             { value: 544, name: 'SteamDeck' }
                         ],
@@ -1331,7 +1331,7 @@ export default {
                         type: 'InputSelect',
                         label: 'GamingDeviceType',
                         field: 'GamingDeviceType',
-                        values: [
+                        options: [
                             { value: 1, name: 'StandardPC' },
                             { value: 544, name: 'SteamDeck' }
                         ],
