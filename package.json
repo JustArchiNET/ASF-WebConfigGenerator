@@ -21,7 +21,7 @@
     "css-loader": "6.11.0",
     "file-loader": "6.2.0",
     "html-webpack-plugin": "5.6.5",
-    "sass": "1.94.1",
+    "sass": "1.94.2",
     "sass-loader": "12.6.0",
     "style-loader": "3.3.4",
     "url-loader": "4.1.1",
