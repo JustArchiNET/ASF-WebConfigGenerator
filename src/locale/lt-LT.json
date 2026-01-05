@@ -22,5 +22,16 @@
     "schema.security": "Saugumas",
     "schema.trading": "Mainai",
     "schema.updates": "Atnaujinimai",
-    "static.add": "Pridėti"
+    "static.add": "Pridėti",
+    "validators.required": "Būtinas laukelis!",
+    "validators.number": "Neteisingas skaičius!",
+    "validators.number-big": "Per didelis skaičius!",
+    "validators.number-small": "Per mažas skaičius!",
+    "validators.string": "Neteisingas tekstas!",
+    "validators.string-big": "Per ilgas tekstas!",
+    "validators.string-small": "Per trumpas tekstas!",
+    "validators.steamid": "Neteisingas SteamID!",
+    "validators.clan": "Neteisingas ClanID!",
+    "validators.url": "Neteisinga nuoroda!",
+    "validators.uuid": "Neteisingas UUID!"
 }
