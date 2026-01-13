@@ -68,7 +68,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         field: 'DefaultBot',
@@ -770,7 +770,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         field: 'DefaultBot',
@@ -1467,7 +1467,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         field: 'DefaultBot',
@@ -2162,7 +2162,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         field: 'DefaultBot',
@@ -2832,7 +2832,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         field: 'DefaultBot',
@@ -3501,7 +3501,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         field: 'DefaultBot',
@@ -4171,7 +4171,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         field: 'DefaultBot',
@@ -4558,7 +4558,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         field: 'DefaultBot',
@@ -5508,7 +5508,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         field: 'DefaultBot',
@@ -6163,7 +6163,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         field: 'DefaultBot',
@@ -6811,7 +6811,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         field: 'DefaultBot',
@@ -7443,7 +7443,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         field: 'DefaultBot',
@@ -8100,7 +8100,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         label: 'SteamMessagePrefix',
@@ -8751,7 +8751,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         label: 'SteamMessagePrefix',
@@ -9396,7 +9396,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         label: 'SteamMessagePrefix',
@@ -10034,7 +10034,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         label: 'SteamMessagePrefix',
@@ -10656,7 +10656,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         label: 'SteamMessagePrefix',
@@ -11284,7 +11284,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         label: 'SteamMessagePrefix',
@@ -11906,7 +11906,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         label: 'SteamMessagePrefix',
@@ -12518,7 +12518,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -13112,7 +13112,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -13699,7 +13699,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -14282,7 +14282,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -14860,7 +14860,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -15418,7 +15418,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -15970,7 +15970,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -16513,7 +16513,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -17055,7 +17055,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -17596,7 +17596,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -18128,7 +18128,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -18660,7 +18660,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -19192,7 +19192,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -19723,7 +19723,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -20242,7 +20242,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -20766,7 +20766,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -21289,7 +21289,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -21818,7 +21818,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         type: 'InputCheckbox',
@@ -22331,7 +22331,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         label: 'MaxTradeHoldDuration',
@@ -22848,7 +22848,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         label: 'MaxTradeHoldDuration',
@@ -23365,7 +23365,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         label: 'MaxTradeHoldDuration',
@@ -23884,7 +23884,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US'
+                        placeholder: ''
                     },
                     {
                         label: 'MaxTradeHoldDuration',
@@ -24396,7 +24396,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US',
+                        placeholder: '',
                         advanced: true
                     },
                     {
@@ -24897,7 +24897,7 @@ export default {
                         label: 'CurrentCulture',
                         field: 'CurrentCulture',
                         type: 'InputText',
-                        placeholder: 'en-US',
+                        placeholder: '',
                         advanced: true
                     },
                     {
