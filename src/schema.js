@@ -831,7 +831,16 @@ export default {
                     {
                         type: 'InputFlag',
                         label: 'SteamProtocols',
-                        field: 'SteamProtocols',
+                        field: 'SteamProtocols',                    {
+                            type: 'InputText',
+                            label: 'CustomGamePlayedWhileFarming',
+                            field: 'CustomGamePlayedWhileFarming'
+                        },
+                        {
+                            type: 'InputText',
+                            label: 'CustomGamePlayedWhileIdle',
+                            field: 'CustomGamePlayedWhileIdle'
+                        },
                         values: [
                             { value: 0, name: 'None' },
                             { value: 1, name: 'TCP' },
