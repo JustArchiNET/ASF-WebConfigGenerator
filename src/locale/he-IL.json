@@ -22,5 +22,16 @@
     "schema.security": "אבטחה",
     "schema.trading": "מסחר",
     "schema.updates": "עדכונים",
-    "static.add": "הוסף"
+    "static.add": "הוסף",
+    "validators.required": "יש למלא שדה זה!",
+    "validators.number": "המספר שהוזן אינו תקין!",
+    "validators.number-big": "הערך המספרי גדול מדי!",
+    "validators.number-small": "הערך המספרי קטן מדי!",
+    "validators.string": "הטקסט שהוזן אינו תקין!",
+    "validators.string-big": "הטקסט חורג מהאורך המרבי!",
+    "validators.string-small": "הטקסט קצר מהנדרש!",
+    "validators.steamid": "ה־SteamID שהוזן אינו תקין!",
+    "validators.clan": "ה־ClanID שהוזן אינו תקין!",
+    "validators.url": "כתובת ה־URL שהוזנה אינה תקינה!",
+    "validators.uuid": "ה־UUID שהוזן אינו תקין!"
 }
