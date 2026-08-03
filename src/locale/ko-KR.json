@@ -22,5 +22,16 @@
     "schema.security": "보안",
     "schema.trading": "거래",
     "schema.updates": "업데이트",
-    "static.add": "추가"
+    "static.add": "추가",
+    "validators.required": "필수 입력 항목입니다!",
+    "validators.number": "유효한 숫자가 아닙니다!",
+    "validators.number-big": "숫자가 너무 큽니다!",
+    "validators.number-small": "숫자가 너무 작습니다!",
+    "validators.string": "유효한 텍스트가 아닙니다!",
+    "validators.string-big": "텍스트가 너무 깁니다!",
+    "validators.string-small": "텍스트가 너무 짧습니다!",
+    "validators.steamid": "유효한 SteamID가 아닙니다!",
+    "validators.clan": "유효한 ClanID가 아닙니다!",
+    "validators.url": "유효한 URL이 아닙니다!",
+    "validators.uuid": "유효한 UUID가 아닙니다!"
 }
